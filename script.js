@@ -1,7 +1,5 @@
-// Mensagem de boas-vindas
-console.log("Bem-vindo ao Agro Forte - Futuro Sustentável!");
-
-// Exemplo de interatividade simples
-document.addEventListener('DOMContentLoaded', () => {
-    alert("Explore o equilíbrio entre produção e meio ambiente!");
+document.getElementById("btnMensagem").addEventListener("click", function() {
+alert(
+"O Agro Forte busca unir produtividade, geração de empregos e preservação ambiental para um futuro sustentável."
+);
 });
